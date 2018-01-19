@@ -10,7 +10,7 @@
 namespace Email {
     
     
-    public partial class unread {
+    public partial class unread1 {
         
         /// <summary>
         /// form1 control.

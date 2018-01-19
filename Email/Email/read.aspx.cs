@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Email
 {
-    public partial class read : System.Web.UI.Page
+    public partial class read1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -5,24 +5,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                <header>
-                    <table>
-                        <tr>
-                            <th>Data</th>
-                            <th>Name</th>
-                            <th>logout</th>
-                        </tr>
-                    </table>
-                </header>
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
-</body>
+    <%
+        Response.Write("<div id = \"myNav\">");
+        Response.Write("<table id = \"navTable\">");
+        Response.Write("<tr>");
+        Response.Write($"<td style=\"text-align:left;\" class=\"shrink\">{DateTime.Now.ToString("d/M/yyyy")}</td>");
+        Response.Write($"<td style=\"text-align:center;\" class=\"expand\">{Session["username"].ToString().Trim()}</td>");
+        Response.Write($"<td style=\"text-align:right;\" class=\"shrink\" id = \"logout\" onclick=\"location.href= 'logout.aspx'\">logout</td>");
+        Response.Write("</tr>");
+        Response.Write("</table>");
+        Response.Write("</div>");
+    %>
+    <hr />	
+    <div id="sideMenuContainer">
+        <table id="sideMenu">
+            <tr>
+                <th onclick = "location.href= 'new.aspx'">New</th>
+            </tr>
+            <tr>
+                <th onclick = "location.href = 'inbox.aspx'">Inbox</th>
+            </tr>
+            <tr>
+                <th onclick = "location.href = 'unread.aspx'">Unread</th>
+            </tr>
+            <tr>
+                <th onclick = "location.href = 'read.aspx'">read</th>
+            </tr>
+			<tr>
+				<th onclick = "location.href = 'sent.aspx'">sent</th>
+			</tr>
+        </table>
+    </div>	
+	<asp:contentplaceholder id="MainContent" runat="server">
+
+    </asp:contentplaceholder>
 </html>

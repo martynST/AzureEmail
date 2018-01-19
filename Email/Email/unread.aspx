@@ -1,43 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="unread.aspx.cs" Inherits="Email.unread" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="unread.aspx.cs" Inherits="Email.unread1" %>
 
 <%@ Import Namespace="System.Data.SqlClient" %>
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
-</head>
-<body>
-    <%
-        Response.Write("<div id = \"myNav\">");
-        Response.Write("<table id = \"navTable\">");
-        Response.Write("<tr>");
-        Response.Write($"<td style=\"text-align:left;\" class=\"shrink\">{DateTime.Now.ToString("d/M/yyyy")}</td>");
-        Response.Write($"<td style=\"text-align:center;\" class=\"expand\">{Session["username"].ToString().Trim()}</td>");
-        Response.Write($"<td style=\"text-align:right;\" class=\"shrink\" id = \"logout\" onclick=\"location.href= 'logout.aspx'\">logout</td>");
-        Response.Write("</tr>");
-        Response.Write("</table>");
-        Response.Write("</div>");
-    %>
-    <hr />	
-    <div id="sideMenuContainer">
-        <table id="sideMenu">
-            <tr>
-                <th onclick = "location.href= 'new.aspx'">New</th>
-            </tr>
-            <tr>
-                <th onclick = "location.href = 'inbox.aspx'">Inbox</th>
-            </tr>
-            <tr>
-                <th onclick = "location.href = 'unread.aspx'">Unread</th>
-            </tr>
-            <tr>
-                <th onclick = "location.href = 'read.aspx'">read</th>
-            </tr>
-        </table>
-    </div>	
-    <%
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+	<%
 		if (Session["username"] == null) {
 			Response.Redirect("Login.aspx");
 		}
@@ -78,7 +43,6 @@
 			}
 		</script>
 	</form>
-</body>
     <script>
 			function wantDelete(pid) {
 				if (!confirm("Are you sure you want to delete?")) {
@@ -86,4 +50,4 @@
 				}
 			}
 	</script>
-</html>
+</asp:Content>

@@ -97,13 +97,16 @@
   <ItemGroup>
     <Content Include="email.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="Inbox.aspx" />
     <Content Include="logout.aspx" />
     <Content Include="new.aspx" />
+    <Content Include="newOld.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="read.aspx" />
+    <Content Include="readOld.aspx" />
     <Content Include="register.aspx" />
     <Content Include="registerdup.aspx" />
     <Content Include="registering.aspx" />
@@ -126,13 +129,14 @@
     </Content>
     <Content Include="checking.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="inbox.aspx" />
+    <Content Include="inboxOld.aspx" />
     <Content Include="invalidLogin.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="unread.aspx" />
+    <Content Include="unreadOld.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -153,12 +157,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="inbox.aspx.cs">
-      <DependentUpon>inbox.aspx</DependentUpon>
+    <Compile Include="inboxOld.aspx.cs">
+      <DependentUpon>inboxOld.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="inbox.aspx.designer.cs">
-      <DependentUpon>inbox.aspx</DependentUpon>
+    <Compile Include="inboxOld.aspx.designer.cs">
+      <DependentUpon>inboxOld.aspx</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -166,6 +170,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inbox.aspx.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inbox.aspx.designer.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
     </Compile>
     <Compile Include="invalidLogin.aspx.cs">
       <DependentUpon>invalidLogin.aspx</DependentUpon>
@@ -195,6 +206,13 @@
     <Compile Include="new.aspx.designer.cs">
       <DependentUpon>new.aspx</DependentUpon>
     </Compile>
+    <Compile Include="newOld.aspx.cs">
+      <DependentUpon>newOld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newOld.aspx.designer.cs">
+      <DependentUpon>newOld.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="read.aspx.cs">
       <DependentUpon>read.aspx</DependentUpon>
@@ -202,6 +220,13 @@
     </Compile>
     <Compile Include="read.aspx.designer.cs">
       <DependentUpon>read.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="readOld.aspx.cs">
+      <DependentUpon>readOld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="readOld.aspx.designer.cs">
+      <DependentUpon>readOld.aspx</DependentUpon>
     </Compile>
     <Compile Include="register.aspx.cs">
       <DependentUpon>register.aspx</DependentUpon>
@@ -244,6 +269,13 @@
     </Compile>
     <Compile Include="unread.aspx.designer.cs">
       <DependentUpon>unread.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="unreadOld.aspx.cs">
+      <DependentUpon>unreadOld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="unreadOld.aspx.designer.cs">
+      <DependentUpon>unreadOld.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

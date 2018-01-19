@@ -7,9 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Email
 {
-    public partial class _new : System.Web.UI.Page
+    public partial class _new1 : System.Web.UI.Page
     {
-        protected void Page_Load (object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
 
         }

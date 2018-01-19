@@ -10,7 +10,7 @@
 namespace Email {
     
     
-    public partial class read {
+    public partial class read1 {
         
         /// <summary>
         /// form1 control.
