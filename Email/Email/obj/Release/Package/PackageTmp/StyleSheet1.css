@@ -1,0 +1,88 @@
+﻿body {
+}
+
+#inbox{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+#inboxContainer {
+    overflow: hidden;
+    max-height: 50%;
+    width: 90%;
+    float: right;
+}
+#inbox tr {
+    vertical-align: top;
+    padding: 10px; 
+}
+#inbox tr:hover{
+  cursor: pointer;
+}
+#inbox td, th {
+    word-wrap: break-word;
+    max-width: 40%;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(59, 55, 55)
+}
+#inbox th {
+    color: white;
+    background-color: #343a40;
+    font-weight: normal;
+}
+
+tr#U {
+    background-color: gray;
+}
+tr#R{
+    background-color: white;
+}
+#sideMenuContainer {
+    width: 10%;
+    float: left;
+    background-color: azure;
+    height: 100%;
+}
+#sideMenu {
+    width: 100%;
+    margin-left: 0;
+    margin-top: auto;
+}
+
+#sideMenu tr:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+#sideMenu th {
+    border-bottom: 0px;
+
+}
+
+#myNav {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: auto;
+    right: 0px;
+    background-color: lightgray;
+}
+#navTable {
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 100%;
+}
+#navTable td.shrink {
+    white-space:nowrap
+}
+#navTable td.expand {
+    width: 99%
+}
+#logout:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+html,body { height:100%; }

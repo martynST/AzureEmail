@@ -1,0 +1,67 @@
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\ApplicationInsights.config
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\csc.exe
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\System.Collections.Immutable.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\vbc.exe
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\VBCSCompiler.exe
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\roslyn\VBCSCompiler.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Email.dll.config
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Email.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Email.pdb
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.Web.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.WindowsServer.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.ApplicationInsights.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.Web.xml
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.AI.WindowsServer.xml
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.ApplicationInsights.xml
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\obj\Debug\Email.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\obj\Debug\Email.dll
+c:\users\admin\documents\visual studio 2015\Projects\Email\Email\obj\Debug\Email.pdb
+F:\documents\QA\C#\C# Projects\Email\Email\bin\ApplicationInsights.config
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\csc.exe
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\System.Collections.Immutable.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\System.Reflection.Metadata.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\vbc.exe
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\VBCSCompiler.exe
+F:\documents\QA\C#\C# Projects\Email\Email\bin\roslyn\VBCSCompiler.exe.config
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Email.dll.config
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Email.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Email.pdb
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.Agent.Intercept.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.DependencyCollector.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.Web.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.WindowsServer.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.ApplicationInsights.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.DependencyCollector.xml
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.Web.xml
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.AI.WindowsServer.xml
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.ApplicationInsights.xml
+F:\documents\QA\C#\C# Projects\Email\Email\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\documents\QA\C#\C# Projects\Email\Email\obj\Debug\Email.csprojResolveAssemblyReference.cache
+F:\documents\QA\C#\C# Projects\Email\Email\obj\Debug\Email.csproj.CoreCompileInputs.cache
+F:\documents\QA\C#\C# Projects\Email\Email\obj\Debug\Email.dll
+F:\documents\QA\C#\C# Projects\Email\Email\obj\Debug\Email.pdb
