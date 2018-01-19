@@ -27,7 +27,7 @@
                 <th onclick = "location.href= 'new.aspx'">New</th>
             </tr>
             <tr>
-                <th onclick = "location.gref = 'email.aspx'">Inbox</th>
+                <th onclick = "location.href = 'inbox.aspx'">Inbox</th>
             </tr>
             <tr>
                 <th>Unread</th>
