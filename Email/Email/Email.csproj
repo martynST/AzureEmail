@@ -111,6 +111,7 @@
     <Content Include="registerdup.aspx" />
     <Content Include="registering.aspx" />
     <Content Include="sending.aspx" />
+    <Content Include="sent.aspx" />
     <Content Include="Site1.Master" />
     <None Include="Properties\PublishProfiles\Email20180102071151 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\qac-email-mt - Web Deploy.pubxml" />
@@ -255,6 +256,13 @@
     </Compile>
     <Compile Include="sending.aspx.designer.cs">
       <DependentUpon>sending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sent.aspx.cs">
+      <DependentUpon>sent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sent.aspx.designer.cs">
+      <DependentUpon>sent.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
