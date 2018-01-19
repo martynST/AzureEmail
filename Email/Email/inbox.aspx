@@ -30,10 +30,10 @@
                 <th onclick = "location.href = 'inbox.aspx'">Inbox</th>
             </tr>
             <tr>
-                <th>Unread</th>
+                <th onclick = "location.href = 'unread.aspx'">Unread</th>
             </tr>
             <tr>
-                <th>read</th>
+                <th onclick = "location.href = 'read.aspx'">read</th>
             </tr>
         </table>
     </div>	
